@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>FitZone Fitness Center</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#" class="logo">
+              
+              <img src="assets/gym_logo.png" alt="logo" class="logo-dark" />
+              <span>FitZone Fitness Center</span>
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#deals">Fitness Programs</a></li>
+          <li><a href="#choose">Why Choose Us</a></li>
+          <li><a href="blogs/blogs.html">Blog</a></li>
+          <li><a href="#client">Testimonials</a></li>
+          <li><a href="registration/register_form.php">Register</a></li> 
+        </ul>
+        
+        <div class="nav__btns">
+          <button class="btn">Register</button>
+        </div>
+
+      </nav>
+      
+      <div class="search-container">
+        <input type="text" class="search-input" id="search-input" placeholder="Search for services, trainers, or classes...">
+        <button class="search-button"id="search-button">Search</button>
+    </div>
+
+      <div class="header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header_gym-.png" alt="header" />
+        </div>
+
+        
+        <div class="header__content">
+          
+          <h2>👍 100% Trusted fitness and gym platform in Kurunegala</h2>
+          <h1>FAST AND EASY WAY TO ACHIEVE YOUR FITNESS GOALS</h1>
+          <p class="section__description">
+            Discover a seamless fitness experience with us. 
+            Choose from a range of premium gym facilities to suit your goals and preferences,
+             and embark on your fitness journey with confidence.
+              Quick, easy, and reliable – start your workout today!          </p>
+        </div>
+      </div>
+        
+    </header>
+
+    <section class="header__form">
+      <form action="/">
+        <div class="offer__details">
+          <h2>Exclusive Offer: 50% Off Gym Membership!</h2>
+          <p>Sign up now to enjoy this amazing discount. Limited time only!</p>
+        </div>
+        <button class="btn">Claim Your Offer <i class="ri-check-line"></i></button>
+      </form>
+    </section>
+    <h1 class="section-standard__header__title type--a1" style="text-align: center;">Goals are Made to be Crushed</h1><br>
+    
+    <div style="display: flex; justify-content: center;">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ijaNtFEuTdM?si=-Z3UpMTHMbGg2OxW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <section class="section__container about__container" id="about">
+      <h2 class="section__header">Everything you need to crush your fitness goals
+      </h2>
+      <p class="section__description">
+        Getting started with us is simple! Choose your membership, select your preferred schedule, 
+        and complete your registration. 
+        We’ll take care of the rest, ensuring a smooth start to your fitness journey.
+      </p>
+      <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; font-family: Arial, sans-serif; text-align: center;">
+        <div style="width: 200px;">
+          <img src="assets/calendar.png" alt="Calendar Icon" style="width: 50px; height: auto; display: block; margin: 0 auto;">
+          <h3 style="margin-top: 10px;">Pick Your Schedule</h3>
+          <p>Choose the exact dates and times for your workouts, so you can hit the gym when it works best for you.</p>
+        </div>
+      
+        <div style="width: 200px;">
+          <img src="assets/access.png" alt="Access Icon" style="width: 50px; height: auto; display: block; margin: 0 auto;">
+          <h3 style="margin-top: 10px;">ACCESS CONTROL</h3>
+          <p>Manage membership through an app</p>
+        </div>
+      
+        <div style="width: 200px;">
+          <img src="assets/gymfeveryone.png" alt="Gym For Everyone Icon" style="width: 50px; height: auto; display: block; margin: 0 auto;">
+          <h3 style="margin-top: 10px;">A GYM FOR EVERYONE</h3>
+          <p>Equipment for all training styles</p>
+        </div>
+      
+        <div style="width: 200px;">
+          <img src="assets/juicybar.png" alt="Juice Bar Icon" style="width: 50px; height: auto; display: block; margin: 0 auto;">
+          <h3 style="margin-top: 10px;">JUICE BAR</h3>
+          <p>Fuel for pre and post workout</p>
+        </div>
+      
+        <div style="width: 200px;">
+          <img src="assets/coaching.png" alt="Coaching Icon" style="width: 50px; height: auto; display: block; margin: 0 auto;">
+          <h3 style="margin-top: 10px;">Personal Training / Coaching</h3>
+          <p>Streamline your progress with one of our coaches virtually or in person.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="deals" id="deals">
+      <div class="section__container deals__container">
+        <h2 class="section__header">Our Popular Fitness Programs</h2>
+        <p class="section__description">
+          Discover our most popular fitness programs, designed to help you achieve your health and wellness goals. 
+          Join now and start your journey to a fitter, healthier you!
+        </p>
+        <div class="deals__tabs">
+          <button class="btn active" data-id="Cardio">Cardio</button>
+          <button class="btn" data-id="Strength">Strength Training</button>
+          <button class="btn" data-id="Yoga">Yoga</button>
+          <button class="btn" data-id="Zumba">Zumba</button>
+          <button class="btn" data-id="Personal Training">Personal Training</button>
+        </div>
+    
+        <!-- Cardio Tab Content -->
+        <div id="Cardio" class="tab__content active">
+          <div class="deals__card">
+            <img src="assets/High-Intensity Cardio.webp" alt="High-Intensity Cardio" />
+            <h4>High-Intensity Cardio</h4>
+            <p>Boost endurance and burn calories with this dynamic workout.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Treadmill Running.jpeg" alt="Treadmill Running" />
+            <h4>Treadmill Running</h4>
+            <p>Improve your stamina with guided treadmill sessions.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Indoor_Cycling.jpg" alt="Cycling" />
+            <h4>Indoor Cycling</h4>
+            <p>Enhance your cardiovascular fitness with fun cycling classes.</p>
+          </div>
+        </div>
+    
+        <!-- Strength Tab Content -->
+        <div id="Strength" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/Weightlifting.jpeg" alt="Weightlifting" />
+            <h4>Weightlifting</h4>
+            <p>Build muscle strength with personalized weightlifting plans.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Functional Training.webp" alt="Functional Training" />
+            <h4>Functional Training</h4>
+            <p>Improve mobility and overall strength through functional exercises.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Core Training.jpg" alt="Core Training" />
+            <h4>Core Training</h4>
+            <p>Strengthen your core with targeted exercises and expert guidance.</p>
+          </div>
+        </div>
+    
+        <!-- Yoga Tab Content -->
+        <div id="Yoga" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/Vinyasa Yoga.jpg" alt="Vinyasa Yoga" />
+            <h4>Vinyasa Yoga</h4>
+            <p>Flow through poses and build flexibility and strength.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Hatha Yoga.jpeg" alt="Hatha Yoga" />
+            <h4>Hatha Yoga</h4>
+            <p>Master the fundamentals of yoga with this beginner-friendly class.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Power Yoga.jpg" alt="Power Yoga" />
+            <h4>Power Yoga</h4>
+            <p>Challenge yourself with an intense and dynamic yoga session.</p>
+          </div>
+        </div>
+    
+        <!-- Zumba Tab Content -->
+        <div id="Zumba" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/Latin Zumba.jfif" alt="Latin Zumba" />
+            <h4>Latin Zumba</h4>
+            <p>Enjoy energetic dance routines to the rhythm of Latin music.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Hip-Hop Zumba.jfif" alt="Hip-Hop Zumba" />
+            <h4>Hip-Hop Zumba</h4>
+            <p>Combine hip-hop moves with calorie-burning cardio.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Zumba Toning.jfif" alt="Zumba Toning" />
+            <h4>Zumba Toning</h4>
+            <p>Dance with light weights to sculpt and tone your body.</p>
+          </div>
+        </div>
+    
+        <!-- Personal Training Tab Content -->
+        <div id="Personal Training" class="tab__content">
+          <div class="deals__card">
+            <img src="assets/One-on-One Coaching.jfif" alt="One-on-One Coaching" />
+            <h4>One-on-One Coaching</h4>
+            <p>Work closely with a trainer to meet your fitness goals.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Custom Plans.jfif" alt="Custom Plans" />
+            <h4>Custom Plans</h4>
+            <p>Receive a fitness plan tailored to your needs.</p>
+          </div>
+          <div class="deals__card">
+            <img src="assets/Nutrition Guidance.jfif" alt="Nutrition Guidance" />
+            <h4>Nutrition Guidance</h4>
+            <p>Learn about healthy eating habits from expert trainers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+
+    <section class="choose__container" id="choose">
+      <div class="choose__image">
+        <img src="assets/hero-banner.png" alt="choose" />
+      </div>
+      <div class="choose__content">
+        <h2 class="section__header">Why choose us?</h2>
+        <p class="section__description">
+          Discover the difference with our gym and fitness services. We offer top-notch equipment, 
+          exceptional coaching,
+           and affordable memberships to ensure a seamless fitness journey.
+        </p>
+        <div class="choose__grid">
+          <div class="choose__card">
+            <span><i class="ri-customer-service-line"></i></span>
+            <div>
+              <h4>Expert Guidance</h4>
+              <p>Our professional trainers are available to guide you 24/7.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-map-pin-line"></i></span>
+            <div>
+              <h4>Convenient Locations</h4>
+              <p>
+                Multiple gym branches to suit your workout needs wherever you are.
+              </p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-wallet-line"></i></span>
+            <div>
+              <h4>Affordable Memberships</h4>
+              <p>Enjoy competitive pricing and great value for every workout.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-user-star-line"></i></span>
+            <div>
+              <h4>Certified Trainers</h4>
+              <p>Train with experienced, certified professionals to achieve your fitness goals.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-verified-badge-line"></i></span>
+            <div>
+              <h4>Trusted Equipment</h4>
+              <p>Workout with the latest, well-maintained gym equipment for a safe and effective session.</p>
+            </div>
+          </div>
+          <div class="choose__card">
+            <span><i class="ri-calendar-close-line"></i></span>
+            <div>
+              <h4>Flexible Plans</h4>
+              <p>Choose from a range of flexible memberships with no hidden cancellation fees.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="deals" id="deals">
+      <div class="section__container deals__container">
+        <h2 class="section__header">Our Gym Services</h2>
+        <p class="section__description">
+          Explore our gym's services, including flexible pricing options and expert trainers. Choose the package that fits your goals and get started with our professional trainers today!
+        </p>
+        
+        <h2 class="Price">Price</h2>
+        <br>
+    
+        <!-- Price Tab Content -->
+        <div id="Price" class="tab__content active">
+          <div class="deals__card">
+            <img src="assets/Basic package.jpg " alt="High-Intensity Cardio" />
+            <h4>Basic Package</h4>
+            <p>Access to all gym equipment and basic group classes.</p><br>
+            <p><strong>Price: Rs2500/month</strong></p><br>
+            <hr><br>
+            <p>JOIN NOW</p>
+          </div>
+
+          <div class="deals__card">
+            <img src="assets/Premium package.jpg" alt="High-Intensity Cardio" />
+            <h4>Premium Package</h4>
+            <p>Includes everything in the Basic Package plus unlimited group classes and 2 personal training sessions per month.</p><br>
+            <p><strong>Price: Rs3500/month</strong></p><br>
+            <hr><br>
+            <p>JOIN NOW</p>
+          </div>
+
+          <div class="deals__card">
+            <img src="assets/VIP package.jpg" alt="High-Intensity Cardio" />
+            <h4>VIP Package</h4>
+            <p>All the benefits of the Premium Package, plus unlimited personal training and access to exclusive workshops.</p><br>
+            <p><strong>Price: Rs4000/month</strong></p><br>
+            <hr><br>
+            <p>JOIN NOW</p>
+          </div>
+        </div><br>
+        <br>
+       
+       
+
+
+
+
+
+
+    <section class="subscribe__container">
+      <div class="subscribe__image">
+        <img src="assets/updates.png" alt="subscribe" />
+      </div>
+      <div class="subscribe__content">
+        <h2 class="section__header">
+          Subscribe for the Latest Fitness Updates
+        </h2>
+        <p class="section__description">
+          Stay in the know! Subscribe to receive the latest gym news, exclusive fitness tips,
+           and updates right to your inbox. Don’t miss out on special promotions, workout plans, 
+          and the newest additions to our training programs.
+        </p>
+        <form action="/">
+          <input type="text" placeholder="Your Email" />
+          <button class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+     <!-- Trainers Tab Content -->
+
+     <br>
+
+     <h2 class="Trainers">Trainers</h2>
+     <br>
+    
+    
+
+      <!-- Trainers Tab Content -->
+ <div id="Trainers" class="tab__content active">
+   <div class="deals__card">
+     <img src="assets/trainner1.jpg" alt="Trainer 1" />
+     <h4>John Doe</h4>
+     <p>Specializes in strength training and weight loss. Experienced in developing personalized fitness plans.</p>
+   </div>
+
+   <div class="deals__card">
+     <img src="assets/trainner2.jpg" alt="Trainer 2" />
+     <h4>Jane Smith</h4>
+     <p>Certified yoga instructor with a focus on flexibility and mental wellness. Guides you through restorative practices.</p>
+   </div>
+   
+   <div class="deals__card">
+     <img src="assets/trainer3.jpg" alt="Trainer 3" />
+     <h4>Mike Johnson</h4>
+     <p>Expert in functional training and injury prevention. Helps clients improve mobility and overall fitness.</p>
+   </div>
+ </div>
+</div>
+</section>
+ 
+
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">What Makes Us the Best?</h2>
+      <p class="section__description">
+        Hear from our happy members! See how we transform lives with state-of-the-art facilities, expert guidance, and a vibrant fitness community.
+      </p>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-1.jpg" alt="Sarah Johnson smiling at the gym" />
+                <div>
+                  <h4>Sarah Johnson</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "Joining this gym has been life-changing! The clean and welcoming environment, combined with the latest equipment, makes every workout a pleasure. The team here truly cares about my goals."
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-2.jpg" alt="Michael Adams lifting weights" />
+                <div>
+                  <h4>Michael Adams</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "The trainers are incredible! They’ve tailored a workout plan just for me, and I’ve already hit milestones I never thought possible. A big thumbs-up for the motivational vibe!"
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-3.jpg" alt="Emily Martinez in a yoga pose" />
+                <div>
+                  <h4>Emily Martinez</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "I adore the variety of classes available! Whether it’s yoga or high-intensity training, every session leaves me energized and excited for the next. Plus, it’s so affordable!"
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-4.jpg" alt="Jason Lee smiling post-workout" />
+                <div>
+                  <h4>Jason Lee</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "A game-changer for my fitness journey! The flexible membership options and supportive community keep me coming back. Highly recommend this gym for everyone!"
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <div class="client__details">
+                <img src="assets/client-5.jpg" alt="David Thompson showing off results" />
+                <div>
+                  <h4>David Thompson</h4>
+                  <div class="client__rating">
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-fill"></i></span>
+                    <span><i class="ri-star-line"></i></span>
+                  </div>
+                </div>
+              </div>
+              <p>
+                "This gym isn’t just about working out—it’s a lifestyle upgrade! From the friendly staff to the advanced workout routines, it’s everything I was looking for and more."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">
+              <img src="assets/gym_logo.png" alt="logo" />
+              <span>FitZoneFitness Center</span>
+            </a>
+          </div>
+          <p>
+            We're here to provide you with the best fitness experience and help you achieve your goals. 
+            Stay connected for updates, special offers, and more. Train with confidence!
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://x.com/login?mx=2"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/login"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/accounts/login/?hl=en"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="https://youtu.be/ijaNtFEuTdM"><i class="ri-youtube-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Our Services</h4>
+          <ul class="footer__links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#deals">Rental Deals</a></li>
+            <li><a href="#choose">Why Choose Us</a></li>
+            <li><a href="#client">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Fitness Programs</h4>
+          <ul class="footer__links">
+            <li><a href="#deals">Cardio</a></li>
+            <li><a href="#deals">Strength Training</a></li>
+            <li><a href="#deals">Yoga</a></li>
+            <li><a href="#deals">Zumba </a></li>
+            <li><a href="#deals">Personal Training</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +94 2987654321
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-fill"></i></span>  Kurunegala, Sri Lanka
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-mail-fill"></i></span> info@FitZoneFitness
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 FitZone Fitness Center. All rights reserved by ABINESH@ICBT
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
