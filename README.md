@@ -55,7 +55,7 @@ Throughout this project, I:
 
 1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/Abinesh-j18/fitzone-fitness-center.git
+   git clone https://github.com/Abinesh-j18/-FitZone-Fitness-Center
 
 
 2. **Set Up Locally**
