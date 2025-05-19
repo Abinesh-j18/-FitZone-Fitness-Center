@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitZone Fitness Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg') no-repeat center center/cover;
+      height: 60vh;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+      padding-right: 20px;
+    }
+    .section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .about {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .about h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+    .about p {
+      line-height: 1.6;
+      color: #666;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-around;
+    }
+    .service {
+      flex: 1 1 calc(30% - 20px);
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .service img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .service h3 {
+      margin-top: 15px;
+      font-size: 1.5em;
+    }
+    .service p {
+      color: #666;
+      line-height: 1.6;
+    }
+    .blog-section {
+      margin: 40px 20px;
+    }
+    .blog-section h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: rgb(223, 149, 11);
+      color: rgb(15, 2, 2);
+      border: black;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+      right: 16px;
+    }
+    
+    .blog-posts {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .blog-post {
+      flex: 1 1 calc(48% - 10px);
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .blog-post img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover; /* Ensures uniform image cropping */
+      border-bottom: 3px solid #007BFF;
+    }
+    .blog-post-content {
+      padding: 15px;
+    }
+    .blog-post h3 {
+      font-size: 1.5em;
+      margin-top: 0;
+    }
+    .blog-post p {
+      line-height: 1.6;
+      color: #666;
+    }
+    .read-more {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #007BFF;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    .read-more:hover {
+      background: #0056b3;
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Welcome to FitZone Fitness Center</h1>
+  <br>
+  <a href="#home">
+  <button>Home</button><br>
+  </a>
+  
+</header>
+
+
+<section class="section blog-section">
+  <h2>Fitness Blog</h2><br>
+  
+
+  <div class="blog-posts">
+    <div class="blog-post">
+      <img src="https://cdn.pixabay.com/photo/2021/01/13/16/46/workout-5914643_1280.jpg" alt="Home Workouts">
+      <div class="blog-post-content">
+        <h3>Top 5 Home Workouts</h3>
+        <p>No gym? No problem! Explore quick and effective home workouts to keep you fit anywhere.</p>
+        <a href="https://macrosinc.net/blog/the-best-at-home-workouts/" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-post">
+      <img src="https://images.pexels.com/photos/6740512/pexels-photo-6740512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Meal Prepping">
+      <div class="blog-post-content">
+        <h3>Meal Prepping Made Easy</h3>
+        <p>Learn how to plan and prepare your meals in advance to save time and eat healthy.</p>
+        <a href="https://www.webmd.com/fitness-exercise/ss/slideshow-best-foods-fitness" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-post">
+      <img src="https://cdn.pixabay.com/photo/2019/07/12/20/56/zumba-4333580_960_720.jpg" alt="Outdoor Fitness">
+      <div class="blog-post-content">
+        <h3>Benefits of Outdoor Fitness</h3>
+        <p>Discover why working out in nature can boost your mood and improve overall health.</p>
+        <a href="https://www.lappset.com/en-GB/article/10-reasons-why-outdoor-training-is-better-than-a-gym-workout" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-post">
+      <img src="https://images.pexels.com/photos/3757376/pexels-photo-3757376.jpeg" alt="Cardio Tips">
+      <div class="blog-post-content">
+        <h3>Cardio Workouts for Beginners</h3>
+        <p>Get started with cardio and learn simple exercises to enhance your endurance.</p>
+        <a href="https://www.verywellfit.com/two-cardio-workouts-for-beginners-1230807" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-post">
+      <img src="https://images.pexels.com/photos/3822590/pexels-photo-3822590.jpeg" alt="Meditation">
+      <div class="blog-post-content">
+        <h3>Meditation for Fitness Enthusiasts</h3>
+        <p>Learn how mindfulness and meditation can complement your physical fitness journey.</p>
+        <a href="https://blog.shikewatch.com/blogs/vr/exploring-the-benefits-of-meditation-for-fitness-enthusiasts" class="read-more">Read More</a>
+      </div>
+    </div>
+    <div class="blog-post">
+      <img src="https://images.pexels.com/photos/4662438/pexels-photo-4662438.jpeg" alt="Strength Training">
+      <div class="blog-post-content">
+        <h3>5 Strength Training Mistakes</h3>
+        <p>Avoid common pitfalls and make the most out of your strength training sessions.</p>
+        <a href="https://www.garmin.com/en-US/blog/fitness/mistakes-of-weight-training/" class="read-more">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <p>&copy; Copyright © 2024 FitZone Fitness Center. All rights reserved by ABINESH@ICBT</p>
+</footer>
+
+</body>
+</html>
